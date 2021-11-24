@@ -1,0 +1,29 @@
+{
+                  "trailingComma": "es5",
+                  "tabWidth": 4,
+                  "semi": false,
+                  "singleQuote": true
+                },
+
+
+                {
+                  "workbench.colorTheme": "Default High Contrast",
+                  "editor.codeLensFontSize": 8,
+                  "editor.fontSize": 20,
+                  "editor.tabSize": 18,
+                  "window.zoomLevel": -1
+              },
+
+              "prettier.enableDebugLogs": true,
+              "[javascript]": {
+                  "editor.defaultFormatter": "esbenp.prettier-vscode"
+              },
+              "[css]": {
+                  "editor.defaultFormatter": "esbenp.prettier-vscode"
+              },
+              "[scss]": {
+                  "editor.defaultFormatter": "esbenp.prettier-vscode"
+              },
+              "[html]": {
+                  "editor.defaultFormatter": "esbenp.prettier-vscode"
+              },
