@@ -1,7 +1,10 @@
-:root{
-    --theme-color: #ff6C00;
 
-    --text-primary: #303030;
-    --text-secondary: #555;
-    
+
+ul, ol {
+    list-style: none;
+
+}
+
+a{
+    text-decoration: none;
 }
