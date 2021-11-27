@@ -1,6 +1,19 @@
 .section {
     padding: 94px 0;
 }
+
+.container {
+    padding: 0 15px;
+    width: 1200px;
+    border: 1px solid red;
+    margin: 0 auto;
+}
+
+
+
+
+
+
 /* ===============Header styles 🧐 starts here========== */
 
 
