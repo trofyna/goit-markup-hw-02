@@ -33,7 +33,15 @@ header .logo {
     margin-right: 93px;
     display: flex;
 }
+.links li a {
+    margin-right: 50px;
+    display: inline-block;
+}
 
+.links li:last-child a {
+    margin-right: 0px;
+    
+}
 /* ===============Header styles 🧐 starts here========== */
 
 
