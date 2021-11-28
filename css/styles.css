@@ -31,6 +31,7 @@ header .container {
 
 header .logo {
     margin-right: 93px;
+    display: flex;
 }
 
 /* ===============Header styles 🧐 starts here========== */
