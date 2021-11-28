@@ -19,13 +19,12 @@ body{
     opacity: 0;
     margin-top: -1px;
 }
-
-
-
-
-
 /* ===============Header styles 🧐 starts here========== */
 
+
+header .container {
+    display: flex;
+}
 
 /* ===============Header styles 🧐 starts here========== */
 
