@@ -83,12 +83,9 @@ header .logo {
 
 .contacts li a:hover,
 .contacts li a:focus,
-.links li a:focus
+.links li a:focus,
 .links li a:hover {
     color: var(--act-color);
-}
-
-
 }
 
 .contacts li:first-child a {
