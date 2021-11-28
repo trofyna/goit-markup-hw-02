@@ -60,7 +60,7 @@ header .logo {
     display: inline-block;
     margin-right: 5px;
 }
-
+.contacts li a,
 .links li a {
     margin-right: 50px;
     display: inline-block;
@@ -78,9 +78,8 @@ header .logo {
 
 .contacts li a {
     margin-left: 50px;
-    display: inline-block;
-    padding: 30.5px 0;
-    }
+    color: var(--sec-color);
+}
 
 .contacts li:first-child a {
     margin-left: 0px;
