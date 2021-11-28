@@ -65,7 +65,6 @@ header .logo {
     margin-right: 50px;
     display: inline-block;
     padding: 30.5px 0;
-    cursor: pointer;
     color: var(--main-color);
     font-weight: 500;
     line-height: calc(16/14);
@@ -81,8 +80,7 @@ header .logo {
     margin-left: 50px;
     display: inline-block;
     padding: 30.5px 0;
-    cursor: pointer;
-}
+    }
 
 .contacts li:first-child a {
     margin-left: 0px;
