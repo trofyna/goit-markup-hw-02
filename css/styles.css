@@ -1,5 +1,6 @@
 body{
     font-family: 'Roboto', sans-serif;
+    font-style: normal;
 }
 .section {
     padding: 94px 0;
@@ -39,13 +40,11 @@ header .logo {
 }
 
 .logo {
-    font-family: Raleway;
-    font-style: normal;
+    font-family: "Raleway", sans-serif;
+    
     font-weight: bold;
     font-size: 26px;
-    line-height: 31px;
-    /* identical to box height */
-
+    line-height: calc(31/26);
     letter-spacing: 0.03em;
 
     color: #2196F3;
