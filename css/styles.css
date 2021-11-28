@@ -1,6 +1,7 @@
 :root {
     --main-color: #212121;
-    --sec-color: #757575
+    --sec-color: #757575;
+    --act-color: #2196F3;
 }
 body{
     font-family: 'Roboto', sans-serif;
@@ -50,8 +51,7 @@ header .logo {
     font-size: 26px;
     line-height: calc(31/26);
     letter-spacing: 0.03em;
-
-    color: #2196F3;
+    color: var(--act-color);
 
 }
 .links li a {
