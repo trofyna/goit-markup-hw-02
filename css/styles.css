@@ -24,6 +24,7 @@ body{
 
 header .container {
     display: flex;
+    justify-content: space-between;
 }
 
 /* ===============Header styles 🧐 starts here========== */
