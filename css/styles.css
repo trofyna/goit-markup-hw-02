@@ -1,3 +1,7 @@
+:root {
+    --main-color: #212121;
+    --sec-color: #757575
+}
 body{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
