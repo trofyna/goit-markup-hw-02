@@ -77,15 +77,23 @@ header .logo {
 }
 
 .contacts li a {
-    margin-left: 50px;
+    margin: 0 0 0 50;
     color: var(--sec-color);
+}
+
+.contacts li a:hover,
+.contacts li a:focus,
+.links li a:focus
+.links li a:hover {
+    color: var(--act-color);
+}
+
+
 }
 
 .contacts li:first-child a {
     margin-left: 0px;
 }
-
-
 /* ===============Header styles 🧐 starts here========== */
 
 
