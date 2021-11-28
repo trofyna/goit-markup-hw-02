@@ -6,6 +6,7 @@
 body{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
+    font-size: 14px;
 }
 .section {
     padding: 94px 0;
@@ -52,13 +53,23 @@ header .logo {
     line-height: calc(31/26);
     letter-spacing: 0.03em;
     color: var(--act-color);
-
 }
+
+.logo-color-black {
+    color: var(--main-color);
+    display: inline-block;
+    margin-right: 5px;
+}
+
 .links li a {
     margin-right: 50px;
     display: inline-block;
     padding: 30.5px 0;
     cursor: pointer;
+    color: var(--main-color);
+    font-weight: 500;
+    line-height: calc(16/14);
+    letter-spacing: 0.02em;
 }
 
 .links li:last-child a {
