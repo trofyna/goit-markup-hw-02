@@ -29,6 +29,10 @@ header .container {
     justify-content: space-between;
 }
 
+header .logo {
+    margin-right: 93px;
+}
+
 /* ===============Header styles 🧐 starts here========== */
 
 
