@@ -29,6 +29,9 @@ header .container {
     justify-content: space-between;
 }
 
+header{
+    border-bottom: 1px solid #ececec;
+}
 header .logo {
     margin-right: 93px;
     display: flex;
@@ -36,12 +39,27 @@ header .logo {
 .links li a {
     margin-right: 50px;
     display: inline-block;
+    padding: 30.5px 0;
+    cursor: pointer;
 }
 
 .links li:last-child a {
     margin-right: 0px;
     
 }
+
+.contacts li a {
+    margin-left: 50px;
+    display: inline-block;
+    padding: 30.5px 0;
+    cursor: pointer;
+}
+
+.contacts li:first-child a {
+    margin-left: 0px;
+}
+
+
 /* ===============Header styles 🧐 starts here========== */
 
 
