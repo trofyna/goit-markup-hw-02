@@ -22,6 +22,8 @@ body{
 /* ===============Header styles 🧐 starts here========== */
 
 nav,
+.links,
+.contacts,
 header .container {
     display: flex;
     justify-content: space-between;
