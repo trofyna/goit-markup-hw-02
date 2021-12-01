@@ -7,6 +7,7 @@ body{
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-size: 14px;
+    color: #212121;
 }
 .section {
     padding: 94px 0;
@@ -91,8 +92,7 @@ header .logo {
 .contacts li:first-child a {
     margin-left: 0px;
 }
-/* ===============Header styles 🧐 starts here========== */
-
+/* ===============Header styles 🧐 ends here========== */
 
 
 
