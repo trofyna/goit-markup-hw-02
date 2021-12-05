@@ -61,6 +61,10 @@ header .logo {
     display: inline-block;
     margin-right: 5px;
 }
+
+.logo-color-white {
+    color: #FFFFFF;
+}
 .contacts li a,
 .links li a {
     margin-right: 50px;
@@ -114,134 +118,90 @@ header .logo {
     margin: 0 auto;
     margin-bottom: 30px;
 }
-
 .hero-btn {
     padding: 10px 32px;
-
+    background: #2196f3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    margin: 0 auto;
+    max-width: 650px;
 }
-
 .hero-btn:hover,
 .hero-btn:focus {
     background:#188CE8 ;
 }
 
+
 /* ===============Hero styles 🧐 ends here========== */
-.links {
+
+/* ===============Advantages styles 🧐 starts here========== */
+
+h3 .advantages{
+    font-family: Roboto;
     font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    color: #212121;
-  }
-  .contacts {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    color: #757575;
-  }
-  .links:hover {
-    color: var(--active-color);
-  }
-  .contacts:hover {
-    color: var(--active-color);
-  }
-  .title {
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.4;
-    color: #FFFFFF;
-    background-color: #2F303A;
-  }
-  .title-button {
     font-weight: bold;
-    font-size: 16px;
-    line-height: 1.9;
-    color: #fff;
-    background-color: #188CE8;
-  }
-  .hidden {
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 1.7;
-    overflow: hidden;
-    opacity: 0;
-  }
-  .benefits {
-    font-weight: 700;
     font-size: 14px;
-    line-height: 1.2;
+    line-height: 16px;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
-  }
-  .second-title {
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 1.7;
-  }
-  .sub-title {
-    font-weight: 400px;
-    font-size: 14px;
-    line-height: 1.4;
-    color: #757575;
-  }
-  .sub-benefits {
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 1.7;
-  }
-  .team {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.9;
-  }
-  .team-jobs {
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 1.9;
-    color: #757575;
-  }
-  .address,
-  .communication {
+    color: var(--main-color);
+}
+
+.advantages-text {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 1.7;
-    color: #FFFFFF;
-    background-color: #2F303A;
-  }
-  .communication {
-    color: rgba(255, 255, 255, 0.6);
-    background-color: #2F303A;
-  }
-  button:hover {
-    color: #fff;
-    background-color: #2196F3;
-  }
-  button:focus {
-    color: #212121;
-    background-color: #F5F4FA;
-  }
-  .sub-title-buttons {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.6;
-    letter-spacing: 0.03em;
-  }
-  .button-style {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.6;
-    letter-spacing: 0.03em;
-  }
-  .image-name {
+    line-height: 24px;
+    letter-spacing: 0.03em; 
+    color: var(--sec-color);
+}
+/* ===============Advantages styles 🧐 ends here========== */
+
+/* ===============DOING & COMMAND styles 🧐 starts here========== */
+
+h2 {
+    margin: 0 auto;
+    font-family: Roboto;
+    font-style: normal;
     font-weight: bold;
-    font-size: 18px;
-    line-height: 2;
-  }
-  .image-description {
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+}
+
+
+/* ===============DOING & COMMAND styles 🧐 ends here========== */
+
+/* ===============Footer styles 🧐 starts here========== */
+.footer {
+    background: #2f303a;
+    padding: 200px 0;
+    max-width: 1600px;
+    margin: 0px auto;
+}
+.address {
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+
+}
+.address-footer {
+    font-family: Roboto;
+    font-style: normal;
     font-weight: normal;
-    font-size: 16px;
-    line-height: 1.9;
-    color: #757575;
-  }
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
