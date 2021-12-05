@@ -48,7 +48,7 @@ header .logo {
 
 .logo {
     font-family: "Raleway", sans-serif;
-    
+    font-style: normal;
     font-weight: bold;
     font-size: 26px;
     line-height: calc(31/26);
@@ -94,8 +94,122 @@ header .logo {
 }
 /* ===============Header styles 🧐 ends here========== */
 
-
-
-
-
-
+.links {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: #212121;
+  }
+  .contacts {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    color: #757575;
+  }
+  .links:hover {
+    color: var(--active-color);
+  }
+  .contacts:hover {
+    color: var(--active-color);
+  }
+  .title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.4;
+    color: #FFFFFF;
+    background-color: #2F303A;
+  }
+  .title-button {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.9;
+    color: #fff;
+    background-color: #188CE8;
+  }
+  .hidden {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.7;
+    overflow: hidden;
+    opacity: 0;
+  }
+  .benefits {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2;
+    text-transform: uppercase;
+  }
+  .second-title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.7;
+  }
+  .sub-title {
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #757575;
+  }
+  .sub-benefits {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.7;
+  }
+  .team {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.9;
+  }
+  .team-jobs {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.9;
+    color: #757575;
+  }
+  .address,
+  .communication {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.7;
+    color: #FFFFFF;
+    background-color: #2F303A;
+  }
+  .communication {
+    color: rgba(255, 255, 255, 0.6);
+    background-color: #2F303A;
+  }
+  button:hover {
+    color: #fff;
+    background-color: #2196F3;
+  }
+  button:focus {
+    color: #212121;
+    background-color: #F5F4FA;
+  }
+  .sub-title-buttons {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+  }
+  .button-style {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    letter-spacing: 0.03em;
+  }
+  .image-name {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+  }
+  .image-description {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.9;
+    color: #757575;
+  }
