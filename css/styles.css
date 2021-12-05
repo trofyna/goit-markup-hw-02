@@ -94,6 +94,8 @@ header .logo {
 }
 /* ===============Header styles 🧐 ends here========== */
 
+/* ===============Hero styles 🧐 starts here========== */
+
 .hero {
     background: #2f303a;
     padding: 200px 0;
@@ -106,8 +108,11 @@ header .logo {
     text-transform: uppercase;
     max-width: 650px;
     color:#FFFFFF;
-    
-
+    line-height: calc(60/44);
+    text-align: center;
+    letter-spacing: 0.06em;
+    margin: 0 auto;
+    margin-bottom: 30px;
 }
 
 .hero-btn {
@@ -120,6 +125,7 @@ header .logo {
     background:#188CE8 ;
 }
 
+/* ===============Hero styles 🧐 ends here========== */
 .links {
     font-style: normal;
     font-weight: 500;
