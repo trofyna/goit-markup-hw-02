@@ -94,6 +94,32 @@ header .logo {
 }
 /* ===============Header styles 🧐 ends here========== */
 
+.hero {
+    background: #2f303a;
+    padding: 200px 0;
+    max-width: 1600px;
+    margin: 0px auto;
+}
+
+.hero-title {
+    font-size: 44px;
+    text-transform: uppercase;
+    max-width: 650px;
+    color:#FFFFFF;
+    
+
+}
+
+.hero-btn {
+    padding: 10px 32px;
+
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background:#188CE8 ;
+}
+
 .links {
     font-style: normal;
     font-weight: 500;
