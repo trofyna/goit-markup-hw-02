@@ -140,7 +140,7 @@ header .logo {
 
 /* ===============Advantages styles 🧐 starts here========== */
 
-h3 .advantages{
+.advantages{
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -162,9 +162,10 @@ h3 .advantages{
 }
 /* ===============Advantages styles 🧐 ends here========== */
 
-/* ===============DOING & COMMAND styles 🧐 starts here========== */
+/* ===============DOING & team styles 🧐 starts here========== */
 
-h2 {
+.doing,
+.team {
     margin: 0 auto;
     font-family: Roboto;
     font-style: normal;
@@ -176,8 +177,87 @@ h2 {
     color: var(--main-color);
 }
 
+.image-do li {
+    display: inline-block;
+}
 
-/* ===============DOING & COMMAND styles 🧐 ends here========== */
+.img-name {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+
+}
+
+.img-proff {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--sec-color);
+
+}
+/* ===============DOING & team styles 🧐 ends here========== */
+
+/* ===============Portfolio styles 🧐 starts here========== */
+
+.all-btn {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    background: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+
+.web-btn,
+.apps-btn,
+.disg-btn,
+.markt-btn {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-color);
+    background: #F5F4FA;
+    border-radius: 4px;
+    }
+
+.product {
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 36px;
+letter-spacing: 0.06em;
+color: var(--main-color);
+}  
+.type-product {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: var(--sec-color);
+}
+
+/* ===============Portfolio styles 🧐 ends here========== */
 
 /* ===============Footer styles 🧐 starts here========== */
 .footer {
@@ -193,7 +273,7 @@ font-weight: normal;
 font-size: 14px;
 line-height: 24px;
 letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
+color: #FFFFFF;
 
 }
 .address-footer {
@@ -205,3 +285,7 @@ color: rgba(255, 255, 255, 0.6);
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
+
+/* ===============Footer styles 🧐 ends here========== */
+
+
