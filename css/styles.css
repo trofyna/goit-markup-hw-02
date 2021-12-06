@@ -266,7 +266,7 @@ color: var(--main-color);
     max-width: 1600px;
     margin: 0px auto;
 }
-.address {
+address {
 font-family: Roboto;
 font-style: normal;
 font-weight: normal;
